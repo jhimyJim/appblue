@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Appblue{% endblock %}</title>
+</head>
+<body>
+
+    <header>
+        <h1>APPBLUE</h1>
+        <nav>
+            <a href="/admin/panel">Administración</a>
+            <a href="/entrada/1">Blog</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>Proyecto Appblue</p>
+    </footer>
+
+</body>
+</html>
